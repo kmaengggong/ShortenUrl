@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+server:
+  port: 8080
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
